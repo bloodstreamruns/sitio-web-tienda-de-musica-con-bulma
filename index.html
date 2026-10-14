@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light" class="has-navbar-fixed-top">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deejay Discos | Vinilos, CDs y más</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar is-fixed-top is-white has-shadow" role="navigation" aria-label="navegación principal">
+
+            <div class="navbar-brand">
+
+                <a class="navbar-item" href="#inicio">
+
+
+                    <strong class="has-text-primary is-size-5">Deejay Discos</strong>
+                </a>
+
+                <a role="button" class="navbar-burger" id="botonMenu" aria-label="menú" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="menuPrincipal" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="#inicio">Inicio</a>
+                    <a class="navbar-item" href="#generos">Géneros</a>
+                    <a class="navbar-item" href="#discos">Discos</a>
+                    <a class="navbar-item" href="#suscripcion">Novedades</a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Formato</a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="#discos">Vinilo</a>
+                            <a class="navbar-item" href="#discos">CD</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="#">
+                                <strong>Registrarse</strong>
+                            </a>
+                            <a class="button is-light" href="#">Ingresar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero is-link is-medium">
+            <div class="hero-body">
+                <div class="container">
+                    <p class="title is-1">Música para todos los gustos</p>
+                    <p class="subtitle">Una selección de discos de cada género musical en existencia</p>
+                    <div class="buttons">
+                        <a class="button is-primary is-medium" href="#discos">Ver discos</a>
+                        <a class="button is-light is-medium" href="#generos">Explorar géneros</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="franja"></div>
+
+        <section id="generos" class="section">
+            <div class="container">
+                <h2 class="title">Géneros</h2>
+                <p class="subtitle">Explora el catálogo por género</p>
+
+                <div class="fixed-grid has-1-cols-mobile has-2-cols-tablet has-4-cols-desktop">
+                    <div class="grid">
+                        <div class="cell">
+                            <div class="notification is-primary is-light has-text-centered">
+                                <p class="title is-5">Outlaw Country</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-info is-light has-text-centered">
+                                <p class="title is-5">Neo-Soul</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-link is-light has-text-centered">
+                                <p class="title is-5">Noise Rock</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-primary is-light has-text-centered">
+                                <p class="title is-5">Flamenco</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-info is-light has-text-centered">
+                                <p class="title is-5">Art Pop</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-link is-light has-text-centered">
+                                <p class="title is-5">Experimental Hip Hop</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-primary is-light has-text-centered">
+                                <p class="title is-5">Sludge Metal</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-info is-light has-text-centered">
+                                <p class="title is-5">Post-Bop</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-link is-light has-text-centered">
+                                <p class="title is-5">Jungle</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-primary is-light has-text-centered">
+                                <p class="title is-5">Holy Minimalism</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-info is-light has-text-centered">
+                                <p class="title is-5">Post-Punk</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-link is-light has-text-centered">
+                                <p class="title is-5">Hyperpop</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-primary is-light has-text-centered">
+                                <p class="title is-5">Dub</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-info is-light has-text-centered">
+                                <p class="title is-5">Milonga</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-link is-light has-text-centered">
+                                <p class="title is-5">Atmospheric Drum and Bass</p>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="notification is-primary is-light has-text-centered">
+                                <p class="title is-5">Metalcore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="discos" class="section has-background-info-light">
+            <div class="container">
+                <h2 class="title">Discos disponibles</h2>
+                <p class="subtitle">Ediciones en vinilo y CD</p>
+
+                <div class="fixed-grid has-1-cols-mobile has-2-cols-tablet has-5-cols-desktop">
+                    <div class="grid">
+                        <div class="cell">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="https://shop.bjork.com/cdn/shop/files/b2ee94c50aa7138588a15e941a4512bd.1000x1000x1.png?v=1751555527"
+                                            alt="Portada de Homogenic, de Björk">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-5">Homogenic</p>
+                                            <p class="subtitle is-6">Björk</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <span class="tag is-primary is-light">Trip Hop</span>
+                                        <span class="tag is-light">1997</span>
+                                        <span class="tag is-light">Vinilo</span>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-footer-item"><strong>$34.00</strong></p>
+                                    <a class="card-footer-item">Agregar</a>
+                                </footer>
+                            </div>
+                        </div>
+
+                        <div class="cell">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/Black_Messiah.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+                                            alt="Portada de Black Messiah, de D'Angelo">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-5">Black Messiah</p>
+                                            <p class="subtitle is-6">D'Angelo</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <span class="tag is-primary is-light">Neo-Soul</span>
+                                        <span class="tag is-light">2014</span>
+                                        <span class="tag is-light">Vinilo</span>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-footer-item"><strong>$36.00</strong></p>
+                                    <a class="card-footer-item">Agregar</a>
+                                </footer>
+                            </div>
+                        </div>
+
+                        <div class="cell">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/8/85/Swans_To_Be_Kind.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+                                            alt="Portada de To Be Kind, de Swans">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-5">To Be Kind</p>
+                                            <p class="subtitle is-6">Swans</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <span class="tag is-primary is-light">Noise Rock</span>
+                                        <span class="tag is-light">2014</span>
+                                        <span class="tag is-light">Vinilo</span>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-footer-item"><strong>$39.00</strong></p>
+                                    <a class="card-footer-item">Agregar</a>
+                                </footer>
+                            </div>
+                        </div>
+
+                        <div class="cell">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt2rQxt-HPF4ySgjSf4BaDYsdSPeCjGCypU2xmh0280i6h__kdYWRkC3zP&s=10"
+                                            alt="Portada de Fuente y caudal, de Paco de Lucía">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-5">Fuente y caudal</p>
+                                            <p class="subtitle is-6">Paco de Lucía</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <span class="tag is-primary is-light">Flamenco</span>
+                                        <span class="tag is-light">1973</span>
+                                        <span class="tag is-light">Vinilo</span>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-footer-item"><strong>$28.00</strong></p>
+                                    <a class="card-footer-item">Agregar</a>
+                                </footer>
+                            </div>
+                        </div>
+
+                        <div class="cell">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="https://media.pitchfork.com/photos/648747aaaed875e699bc73ed/1:1/w_450%2Cc_limit/Sophie.jpg"
+                                            alt="Portada de Oil of Every Pearl's Un-Insides, de SOPHIE">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-5">Oil of Every Pearl's Un-Insides</p>
+                                            <p class="subtitle is-6">SOPHIE</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <span class="tag is-primary is-light">Art Pop</span>
+                                        <span class="tag is-light">2018</span>
+                                        <span class="tag is-light">Vinilo</span>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-footer-item"><strong>$33.00</strong></p>
+                                    <a class="card-footer-item">Agregar</a>
+                                </footer>
+                            </div>
+                        </div>
+
+                        <div class="cell">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="https://f4.bcbits.com/img/a0747334388_10.jpg"
+                                            alt="Portada de Atrocity Exhibition, de Danny Brown">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-5">Atrocity Exhibition</p>
+                                            <p class="subtitle is-6">Danny Brown</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <span class="tag is-primary is-light">Experimental Hip Hop</span>
+                                        <span class="tag is-light">2016</span>
+                                        <span class="tag is-light">CD</span>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-footer-item"><strong>$15.00</strong></p>
+                                    <a class="card-footer-item">Agregar</a>
+                                </footer>
+                            </div>
+                        </div>
+
+                        <div class="cell">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="https://i.scdn.co/image/ab67616d0000b273b4bbf605bb789fe8ddef54f4"
+                                            alt="Portada de God's Country, de Chat Pile">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-5">God's Country</p>
+                                            <p class="subtitle is-6">Chat Pile</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <span class="tag is-primary is-light">Sludge Metal</span>
+                                        <span class="tag is-light">2022</span>
+                                        <span class="tag is-light">Vinilo</span>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-footer-item"><strong>$30.00</strong></p>
+                                    <a class="card-footer-item">Agregar</a>
+                                </footer>
+                            </div>
+                        </div>
+
+                        <div class="cell">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Bill_Evans_Trio_-_Waltz_for_Debby.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+                                            alt="Portada de Waltz for Debby, de Bill Evans Trio">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-5">Waltz for Debby</p>
+                                            <p class="subtitle is-6">Bill Evans Trio</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <span class="tag is-primary is-light">Post-Bop</span>
+                                        <span class="tag is-light">1962</span>
+                                        <span class="tag is-light">CD</span>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-footer-item"><strong>$14.00</strong></p>
+                                    <a class="card-footer-item">Agregar</a>
+                                </footer>
+                            </div>
+                        </div>
+
+                        <div class="cell">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="https://i.scdn.co/image/ab67616d0000b273f015facadafea5614a6b20c2"
+                                            alt="Portada de La ley innata, de Extremoduro">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-5">La ley innata</p>
+                                            <p class="subtitle is-6">Extremoduro</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <span class="tag is-primary is-light">Progressive Rock</span>
+                                        <span class="tag is-light">2008</span>
+                                        <span class="tag is-light">CD</span>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-footer-item"><strong>$16.00</strong></p>
+                                    <a class="card-footer-item">Agregar</a>
+                                </footer>
+                            </div>
+                        </div>
+
+                        <div class="cell">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="https://media.pitchfork.com/photos/668ed2fafefe1050fc3c42d2/master/w_1280%2Cc_limit/Magdalena-Bay-Imaginal-Disk.jpg"
+                                            alt="Portada de Imaginal Disk, de Magdalena Bay">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-5">Imaginal Disk</p>
+                                            <p class="subtitle is-6">Magdalena Bay</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <span class="tag is-primary is-light">Synthpop</span>
+                                        <span class="tag is-light">2024</span>
+                                        <span class="tag is-light">Vinilo</span>
+                                    </div>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-footer-item"><strong>$31.00</strong></p>
+                                    <a class="card-footer-item">Agregar</a>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="suscripcion" class="section">
+            <div class="container is-max-desktop">
+                <h2 class="title">Novedades por correo</h2>
+                <p class="subtitle">Te avisamos cuando lleguen nuevas ediciones de los álbumes de tus artistas
+                    favoritos.</p>
+
+                <form action="#">
+                    <div class="field has-addons">
+                        <div class="control is-expanded">
+                            <input class="input" type="email" placeholder="correo@ejemplo.com"
+                                aria-label="Correo electrónico">
+                        </div>
+                        <div class="control">
+                            <button class="button is-primary" type="submit">Suscribirme</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-4 has-background-info-light">
+        <div class="content has-text-centered">
+            <p><strong>Deejay Discos</strong> · Vinilos, CDs y más</p>
+            <p>2026, hecho por Daniel Sánchez. Todos los derechos reservados a los dueños de las respectivas imágenes
+                usadas para esta página meramente didáctica.</p>
+        </div>
+    </footer>
+
+    <script>
+        const botonMenu = document.getElementById("botonMenu");
+        const menuPrincipal = document.getElementById("menuPrincipal");
+
+        botonMenu.addEventListener("click", function () {
+            botonMenu.classList.toggle("is-active");
+            menuPrincipal.classList.toggle("is-active");
+        });
+    </script>
+</body>
+
+</html>
